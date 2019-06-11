@@ -1,12 +1,12 @@
-#factorial calculation
-#need to have someone input number
+#Exercise 3
+#all numbers for (i, i*i)
 
-import math #can use math.factorial
-#print(math.factorial(5))
-y = input("Define y:")
-y=int(y)
-print(math.factorial(y))
-
+x = int(input("Define x:"))
+d = dict()
+#dict helps create a variable for lists
+for i in range (1, x+1):
+    d[i]=i*i
+print(d)
 
 
 
