@@ -3,23 +3,19 @@
 #getString, printString
 
 
-class InputOutString(object):
-    def _init__(self):
-       self.x = ""
+class createstring(object):
+    def _init_(self):
+        self.x = ""
 
     def getString(self):
-        self.x = input("Provide a list of school subjects: ")
+        self.x = input("Please list different types of fruit:")
 
     def printString(self):
         print(self.x.upper())
 
-strObj = InputOutString()
+strObj = createstring()
 strObj.getString()
-#looks for the user input from def getString(self)
-#another way to look for input instead of x=input("User input")
 strObj.printString()
-#prints the input out with all caps from the def printString(self)
-
 
 
 
